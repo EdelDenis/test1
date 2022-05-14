@@ -11,7 +11,7 @@ console.log(randomNumber);
 
 
 
-button.addEventListener("submit",(event)=>{
+function playGame (event) {
     event.preventDefault();
     let counter = 3;
 while(counter > 0){
@@ -38,8 +38,11 @@ while(counter > 0){
     }
     
 }
-})
+}
 
+
+
+button.addEventListener("click", playGame);
 
 
 
