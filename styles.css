@@ -1,0 +1,25 @@
+body{
+    background-color: bisque;
+}
+
+h1{
+    text-align: center;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    gap:50px;
+}
+
+.button{
+    height:21px;
+    width:65px;
+    cursor: pointer;
+}
+
+.text{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
